@@ -1,14 +1,8 @@
 #
-# Copyright (C) 2026 The Android Open Source Project
-# Copyright (C) 2026 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2026 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_j2y18lte.mk
-
-COMMON_LUNCH_CHOICES := \
-    omni_j2y18lte-user \
-    omni_j2y18lte-userdebug \
-    omni_j2y18lte-eng
+    $(LOCAL_DIR)/lineage_j2y18lte.mk
