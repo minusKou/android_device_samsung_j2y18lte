@@ -1,0 +1,30 @@
+# Graphics & EGL (Adreno 308)
+lib/egl/eglSubDriverAndroid.so
+lib/egl/libEGL_adreno.so
+lib/egl/libGLESv1_CM_adreno.so
+lib/egl/libGLESv2_adreno.so
+lib/hw/gralloc.msm8937.so
+lib/hw/hwcomposer.msm8937.so
+lib/libgsl.so
+lib/libadreno_utils.so
+
+# Audio
+lib/hw/audio.primary.msm8937.so
+lib/hw/sound_trigger.primary.msm8937.so
+lib/libaudioroute.so
+
+# Radio / RIL
+lib/libsec-ril.so
+lib/libsec-ril-dsds.so
+lib/libsecril-client.so
+
+# Camera
+lib/hw/camera.msm8937.so
+lib/libmmcamera_interface.so
+
+# Sensors
+lib/hw/sensors.msm8937.so
+
+# Wi-Fi / Bluetooth Firmware
+etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+etc/wifi/wpa_supplicant_overlay.conf
