@@ -40,7 +40,7 @@ ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
   TARGET_PREBUILT_DT := $(DEVICE_PATH)/prebuilt/dt.img
   BOARD_MKBOOTIMG_ARGS += --dt $(TARGET_PREBUILT_DT)
 else
-  TARGET_KERNEL_CONFIG := j2y18lte_defconfig
+  TARGET_KERNEL_CONFIG := msm8937_sec_j2y18lte_mea_open_defconfig
   TARGET_KERNEL_SOURCE := kernel/samsung/j2y18lte
 endif
 
