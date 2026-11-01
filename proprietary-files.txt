@@ -1,30 +1,57 @@
-# Graphics & EGL (Adreno 308)
-lib/egl/eglSubDriverAndroid.so
-lib/egl/libEGL_adreno.so
-lib/egl/libGLESv1_CM_adreno.so
-lib/egl/libGLESv2_adreno.so
-lib/hw/gralloc.msm8937.so
-lib/hw/hwcomposer.msm8937.so
-lib/libgsl.so
-lib/libadreno_utils.so
+# Daemons
+bin/mm-qcamera-daemon
+bin/qmuxd
+bin/time_daemon
+bin/wcnss_service
 
-# Audio
-lib/hw/audio.primary.msm8937.so
-lib/hw/sound_trigger.primary.msm8937.so
-lib/libaudioroute.so
-
-# Radio / RIL
-lib/libsec-ril.so
-lib/libsec-ril-dsds.so
-lib/libsecril-client.so
-
-# Camera
-lib/hw/camera.msm8937.so
-lib/libmmcamera_interface.so
-
-# Sensors
-lib/hw/sensors.msm8937.so
-
-# Wi-Fi / Bluetooth Firmware
+# Firmware, Configs & Calibration
+etc/Bluetooth_cal.acdb
+etc/General_cal.acdb
+etc/Global_cal.acdb
+etc/Handset_cal.acdb
+etc/Hdmi_cal.acdb
+etc/Headset_cal.acdb
+etc/Speaker_cal.acdb
 etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 etc/wifi/wpa_supplicant_overlay.conf
+
+# Hardware HALs
+lib/hw/audio.primary.msm8937.so
+lib/hw/camera.msm8937.so
+lib/hw/gralloc.msm8937.so
+lib/hw/hwcomposer.msm8937.so
+lib/hw/sensors.msm8937.so
+
+# Graphics, EGL & Media (OMX)
+lib/libOmxCore.so
+lib/libOmxVdec.so
+lib/libOmxVenc.so
+lib/libstagefrighthw.so
+vendor/lib/egl/eglSubDriverAndroid.so
+vendor/lib/egl/libEGL_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/libC2D2.so
+vendor/lib/libadreno_utils.so
+vendor/lib/libc2d30-a3xx.so
+vendor/lib/libgsl.so
+
+# Audio & Sensors
+lib/libaudioroute.so
+vendor/lib/libacdbloader.so
+vendor/lib/libaudcal.so
+vendor/lib/libsensor1.so
+vendor/lib/sensors.ssc.so
+
+# Camera & Time
+lib/libmmcamera_interface.so
+vendor/lib/libtime_genoff.so
+
+# Radio, RIL & QMI
+lib/libsec-ril-dsds.so
+lib/libsec-ril.so
+lib/libsecril-client.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_qmux.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmiservices.so
